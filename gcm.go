@@ -602,5 +602,5 @@ func authHeader(apiKey string) string {
 
 // xmppUser generates an xmpp username from a sender ID.
 func xmppUser(senderId string) string {
-	return senderId + "@" + xmppHost
+	return senderId + "@gcm.googleapis.com"
 }
